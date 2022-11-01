@@ -128,7 +128,8 @@ type MMD struct {
 
 func newMODMD(content string, href *OURL) *MMD {
 	return &MMD{
-		Tag:  "markdown",
-		Href: href,
+		Tag:     "markdown",
+		Content: content,
+		Href:    href,
 	}
 }
